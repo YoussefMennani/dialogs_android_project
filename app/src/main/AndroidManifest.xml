@@ -13,6 +13,15 @@
         android:theme="@style/Theme.DialogKit"
         tools:targetApi="31">
         <activity
+            android:name=".bottom_sheet_dialog.BottomSheetDialog"
+            android:exported="false" />
+        <activity
+            android:name=".custom_dialog.CustomDialog"
+            android:exported="false" />
+        <activity
+            android:name=".Ttme_picker_dialog.TimePickerDialog"
+            android:exported="false" />
+        <activity
             android:name=".date_picker_dialog.DatePickerDialog"
             android:exported="false" />
         <activity

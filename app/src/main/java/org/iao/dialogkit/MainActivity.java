@@ -5,11 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.session.PlaybackState;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import org.iao.dialogkit.Ttme_picker_dialog.TimePickerDialog;
+import org.iao.dialogkit.bottom_sheet_dialog.BottomSheetDialog;
+import org.iao.dialogkit.custom_dialog.CustomDialog;
 import org.iao.dialogkit.date_picker_dialog.DatePickerDialog;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,6 +59,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void DatePickerDialog(View view){
         Intent intent = new Intent(MainActivity.this, DatePickerDialog.class);
+        startActivity(intent);
+    }
+    
+    public void TimePickerDialog(View view){
+        Intent intent = new Intent(MainActivity.this, TimePickerDialog.class);
+        startActivity(intent);
+    }
+
+    public void CustomDialog(View view){
+        Intent intent = new Intent(MainActivity.this, CustomDialog.class);
+        startActivity(intent);
+    }
+
+    public void BottomSheetDialog(View view){
+        Intent intent = new Intent(MainActivity.this, BottomSheetDialog.class);
         startActivity(intent);
     }
 }

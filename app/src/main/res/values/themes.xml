@@ -6,4 +6,5 @@
     </style>
 
     <style name="Theme.DialogKit" parent="Base.Theme.DialogKit" />
+
 </resources>

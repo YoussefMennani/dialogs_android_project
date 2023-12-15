@@ -1,0 +1,55 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/username_linearLayout"
+    >
+
+    <ImageView
+        android:id="@+id/usernameIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/username"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/username_linearLayout"
+        >
+
+        <ImageView
+            android:id="@+id/passwordIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/username"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

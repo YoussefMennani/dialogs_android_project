@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include">
+        app:layout_constraintTop_toBottomOf="@+id/view">
 
         <ImageView
             android:id="@+id/avatarImageView"
@@ -85,18 +85,18 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/openCustomDialogBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:text="Open Custom Dialog"
         android:textSize="20dp"
-        android:id="@+id/openCustomDialogBtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/headerLinearLay2"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintVertical_bias="0.446" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

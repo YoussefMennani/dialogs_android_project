@@ -153,6 +153,7 @@
                 android:layout_margin="10dp"
                 android:onClick="DatePickerDialog"
                 app:cardCornerRadius="8dp"
+                android:backgroundTint="#C5DDDB"
                 app:cardElevation="8dp">
 
                 <LinearLayout
@@ -193,6 +194,7 @@
                 android:layout_margin="10dp"
                 android:onClick="TimePickerDialog"
                 app:cardCornerRadius="8dp"
+                android:backgroundTint="#C5DDDB"
                 app:cardElevation="8dp">
 
                 <LinearLayout

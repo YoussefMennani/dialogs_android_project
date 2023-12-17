@@ -16,11 +16,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/header_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text="ProgressDialog"
+        android:text="DatePicker Dialog"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold"

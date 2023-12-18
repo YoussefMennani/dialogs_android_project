@@ -13,9 +13,8 @@ import org.iao.dialogkit.R;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
-
-public class TimePickerDialog extends AppCompatActivity implements android.app.TimePickerDialog.OnTimeSetListener {
-
+import android.app.TimePickerDialog.OnTimeSetListener;
+public class TimePickerDialog extends AppCompatActivity implements OnTimeSetListener {
     Button openTimePickerButton;
     TextView timeTextView1,timeTextView2;
     @Override
@@ -24,7 +23,6 @@ public class TimePickerDialog extends AppCompatActivity implements android.app.T
         setContentView(R.layout.activity_time_picker_dialog);
 
         openTimePickerButton = findViewById(R.id.datePickerButton);
-
         timeTextView1 = findViewById(R.id.heureText1);
         timeTextView2 = findViewById(R.id.heureText2);
         openTimePickerButton.setOnClickListener(new View.OnClickListener() {

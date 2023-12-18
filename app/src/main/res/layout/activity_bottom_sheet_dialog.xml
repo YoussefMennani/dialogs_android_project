@@ -32,7 +32,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#9C27B0"
+        android:textColor="@color/white"
         android:text="Click Me"
         android:textSize="24dp"
         android:id="@+id/buttonSheet"

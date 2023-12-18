@@ -88,6 +88,8 @@
         android:id="@+id/openCustomDialogBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#9C27B0"
+        android:textColor="@color/white"
         android:padding="15dp"
         android:text="Open Custom Dialog"
         android:textSize="20dp"
